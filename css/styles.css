@@ -1,0 +1,106 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background-color: #00161C;
+    font-family: open sans;
+    align-items: center;
+    border-bottom: 1px solid #103D4A
+}
+.nav__menu{
+    display: flex;
+    justify-content: space-evenly;    
+    flex-wrap: wrap ;
+    font-size: 18px;
+}
+.nav__item{
+    /* SACA LOS PUNTOS DELANTE DE CADA ITEM DE LA LISTA */
+    list-style: none;
+    padding: 0.75rem;
+    
+}
+.nav__item a{
+    /* SACA EL SUBRRARDO DE LOS ENLACES */
+    text-decoration: none;
+}
+
+/* APLICACIONES */
+.aplicaciones{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background:#00161C;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.aplicaciones__title{
+    font-size: 32px;
+    font-weight: bold;
+    width: 70%;
+    padding: 0.75rem 0;
+}
+.aplicaciones__text{
+
+    padding: 0.75rem;
+    font-size:20px;
+    line-height: 27px;
+}
+.aplicaciones__btn{
+    width: 90%;
+    padding: 20px 0;
+    background:#00161C;
+    color: #fff;
+    border: 1px solid #B72E2E;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 16px;
+    font-weight:bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/* DESTACADOS */
+.destacados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:#DFE3F5;
+}
+.destacados__title{
+    margin: 40px 0;
+    color:#4F4C4C;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: bold;
+}
+.destacados__img{
+    /* PARA Q NO SE DESBORDE LA IMAGEN DALE EL WIDT DE LA PANTALLA OSEA 100% */
+    width: 100%;
+}
+.destacados__text{
+    width:90%;
+    margin: 10px 0;
+    font-size: 19px;
+    font-family: open sans;
+    font-weight: bold;
+    padding: 0.75rem 0;
+}
+.destacados__btn{
+    width: 90%;
+    background:#DFE3F5;
+    color: #B72E2E;
+    border: 1px solid #B72E2E;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 16px;
+    font-weight:bold;
+    padding: 20px 0;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
