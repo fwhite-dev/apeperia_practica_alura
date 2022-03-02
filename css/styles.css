@@ -285,14 +285,15 @@ body{
     padding: 20px 0;
 }
 .institucional-container__direccion{
-    padding-bottom: 15px;
+    color:#666666;
+    text-align: center;
 }
 .institucional-container__contacto{
     display: flex;
     flex-direction: column;
     text-decoration: underline;
     align-items: center;
-    padding-bottom: 15px;
+    padding: 15px;
 }
 .institucional-container__video{
     width: 100%;
