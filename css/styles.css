@@ -84,6 +84,7 @@ body{
     width: 100%;
 }
 .destacados__text{
+    text-align: center;
     width:90%;
     margin: 10px 0;
     font-size: 19px;
@@ -318,4 +319,42 @@ body{
 }
 .nav{
     color: #fff
+}
+
+/* RESPONSIVE PARA TABLET (768 a 1024px) */
+
+@media screen and (min-width: 768px) {
+  
+    .aplicaciones__text{
+        max-width: 600px;
+    }
+    .card__item,.destacados__btn, .contacto-container__btn, .aplicaciones__btn{
+        max-width: 400px;
+    }
+    .institucional-container__contacto p{
+        display: flex;
+    }
+    .institucional-container__contacto p a{
+        padding-left: 3.5rem;
+    }
+    .institucional-container__video,.destacados__img{
+        width: 80%;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .header{
+        flex-direction: row;
+        justify-content:space-around;
+    }
+    .aplicaciones{
+        background-image: url(../img/bg-intro.jpg);
+        background-size: cover;
+        padding-top: 8.25rem;
+    }
+    .aplicaciones__title{
+        font-size:3.25rem;
+        margin-bottom: 2.5rem;
+    }
 }
