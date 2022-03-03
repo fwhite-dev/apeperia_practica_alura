@@ -82,6 +82,7 @@ body{
 .destacados__img{
     /* PARA Q NO SE DESBORDE LA IMAGEN DALE EL WIDT DE LA PANTALLA OSEA 100% */
     width: 100%;
+    max-width: 564px;
 }
 .destacados__text{
     text-align: center;
@@ -343,6 +344,9 @@ body{
     .institucional-container__video,.destacados__img{
         width: 80%;
     }
+    .destacados__img{
+        max-width: 564px;
+    }
 
 }
 
@@ -397,6 +401,9 @@ body{
     }
     .institucional-container__video{
         width: 30%;
+    }
+    .destacados__img{
+        max-width: 564px;
     }
 
 }
