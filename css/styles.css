@@ -112,8 +112,8 @@ body{
 }
 .list{
     display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
+    flex-direction: column;
+    align-items: center;
 }
 .list__item{
     max-width: 350px;
@@ -178,7 +178,7 @@ body{
     margin: 30px 0 20px 0;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 /* PLANES */
@@ -356,5 +356,18 @@ body{
     .aplicaciones__title{
         font-size:3.25rem;
         margin-bottom: 2.5rem;
+    }
+    .container{
+        background-color: #F7F4F4 ;
+
+    }
+    .list li{
+        
+        margin: 0 10px;
+    }
+    .list{
+        flex-direction: row;
+        justify-content: space-around;
+        
     }
 }
