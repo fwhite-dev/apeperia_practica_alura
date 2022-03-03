@@ -180,6 +180,9 @@ body{
     display: flex;
     justify-content: space-around;
 }
+.sobre-nosotros__img{
+    display: none;
+}
 
 /* PLANES */
 .planes-container{
@@ -369,5 +372,19 @@ body{
         flex-direction: row;
         justify-content: space-around;
         
+    }
+    .sobre-nosotros-container{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        
+    }
+    .sobre-nosotros__description{
+        width: 40%;
+    }
+    .sobre-nosotros__img{
+        display: block;
+        margin: 50px 0 0 0;
     }
 }
