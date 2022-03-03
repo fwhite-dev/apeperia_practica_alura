@@ -387,4 +387,16 @@ body{
         display: block;
         margin: 50px 0 0 0;
     }
+    .institucional-container{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .institucional-container div{
+        text-align:center;
+        width: 50%;
+    }
+    .institucional-container__video{
+        width: 30%;
+    }
+
 }
